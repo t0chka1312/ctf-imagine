@@ -14,7 +14,7 @@ Máquina de Capture The Flag (CTF) con vulnerabilidades web diseñada para prác
 ## Instalación rápida
 ```bash
 # Clonar repositorio
-sudo git clone https://github.com/tu-usuario/ctf-bloodmoon.git /var/www/html/ctf
+sudo git clone https://github.com/t0chka1312/ctf-imagine.git /var/www/html/ctf
 
 # Configurar permisos
 sudo chown -R www-data:www-data /var/www/html/ctf
