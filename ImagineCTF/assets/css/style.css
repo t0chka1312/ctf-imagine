@@ -1,0 +1,126 @@
+:root {
+    --primary-bg: linear-gradient(135deg, #1a0000 0%, #4d0000 100%);
+    --secondary-bg: #1a0000;
+    --accent-red: #ff3333;
+    --accent-dark: #0d0000;
+    --text-light: #f0f0f0;
+    --text-muted: #a0a0a0;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background: var(--primary-bg);
+    color: var(--text-light);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--accent-dark);
+    padding: 1rem;
+    border-bottom: 2px solid var(--accent-red);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--accent-red);
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.menu a {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: var(--accent-red);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background-color: var(--secondary-bg);
+    border: 1px solid var(--accent-red);
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: var(--accent-red);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #cc0000;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--accent-dark);
+    border: 1px solid var(--accent-red);
+    color: var(--text-light);
+}
+
+.vulnerability-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.vulnerability-item {
+    border: 1px solid var(--accent-red);
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+
+.vulnerability-item:hover {
+    transform: translateY(-5px);
+}
+
+.vulnerability-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--accent-dark);
+}
+
+footer {
+    background-color: var(--accent-dark);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid var(--accent-red);
+}
