@@ -1,4 +1,4 @@
-# Blood Moon Security CTF
+# Imagnine CTF
 
 Máquina de Capture The Flag (CTF) con vulnerabilidades web diseñada para prácticas de hacking ético.
 
